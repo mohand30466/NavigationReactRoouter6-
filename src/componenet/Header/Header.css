@@ -1,0 +1,17 @@
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 10vh;
+    background: blue;
+}
+.headerlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    height: 10vh;
+    width: 100vw;
+    color: red;
+
+}
