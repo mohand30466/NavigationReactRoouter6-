@@ -8,10 +8,31 @@
 .headerlinks{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     justify-items: center;
     height: 10vh;
     width: 100vw;
-    color: red;
+    color: white;
+    list-style: none;
+    flex-wrap: wrap;
 
+}
+.logo{
+    display: flex;
+    width: 30vw;
+}
+.btn{
+    padding: 5px;
+    color: blue;
+    font-style:normal;
+}
+.btn:hover{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    padding: 6px;
+    border-radius: 2px;
+}
+a{
+    color: white;
+    text-decoration: none;
 }

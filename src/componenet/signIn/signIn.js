@@ -1,7 +1,8 @@
 import React from 'react'
+import './Signin.css'
 
-export default function signIn() {
+export default function SignIn() {
   return (
-    <div>hello this is sign in page</div>
+    <div className='signinContainer'> hello this is sign in page</div>
   )
 }
